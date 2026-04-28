@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+  >
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+   <meta name="description" content="Aprende a desarrollar páginas web desde cero">
+
+ 
+   <title>Galeria de libros</title>
+ 
+   <link rel="stylesheet" href="preEntrega/preEntrega1.css">
+ 
+   
+   <script src="https://kit.fontawesome.com/73f851add2.js" crossorigin="anonymous"></script>
+   
+ <link rel="stylesheet" type="text/css" href="PreEntrega.css"/>	
+
+   <script src="https://kit.fontawesome.com/73f851add2.js" crossorigin="anonymous"></script>
+
+	</head>
+
+<body>
+	
+
+<h1 class="h1">Elija con sabiduria</h1>	
+
+<div  class="imagenes">
+
+<img class = "img" src="preE/1.jpg">
+<img class = "img" src="preE/2.jpg">
+<img class = "img" src="preE/3.jpg">
+<img class = "img" src="preE/4.jpg">
+<img class = "img" src="preE/5.jpg">
+<img class = "img" src="preE/7.jpg">
+
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+<p class="p">Diego Leandro Couselo</p>
+   <div class="social">
+      <a class="f" href="#" target="_blank" rel="noopener noreferrer"><i class="fs-4 fab fa-youtube"></i></a>
+      <a class="f" href="#" target="_blank" rel="noopener noreferrer"><i class="fs-4 fab fa-instagram"></i></a>
+      <a  class="f" href="#" target="_blank" rel="noopener noreferrer"><i class="fs-4 fab fa-twitter"></i></a>
+      <a class="f" href="#" target="_blank" rel="noopener noreferrer"><i class="fs-4 fab fa-linkedin"></i></a>
+        <i><a href="preEntrega.html">=</a></i>    
+    </div></footer>
+
+
+
+
+</body>
+
+</html>
+
+<style>
+	
+body { 
+
+background-color: #000;
+
+
+
+
+ }
+
+.h1 { 
+color: #fff;
+box-shadow: 0px 0px 15px 5px rgba(139, 0, 0, 0.7); 
+text-align: center;
+font-size: 15px;
+font-family: 'Creepster', cursive; 
+
+ }
+
+
+.imagenes { 
+
+display: grid;
+grid-template-columns: 100px 100px 100px ;
+grid-template-rows: 100px 50px;
+grid-gap: 160px;
+transition: transform 0.3s ease;  
+transition-delay: 0s;
+
+
+
+ }
+
+.imagenes img { 
+width: 250px;
+height: 250px; 
+border-radius: 50px 15%; 
+
+ }
+
+
+.imagenes img:hover { 
+ transform: scale(1.2);
+
+ }
+
+.imagenes img:not(:hover) { 
+transition-delay: 0.5s;
+
+
+
+ }
+
+.footer {  
+
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #000; 
+margin: 0;
+position: relative;
+top: 500px;  
+width: 100%; 
+color: #000;
+border: 2px solid #fff;
+box-shadow: 18px 200px 230px 143px rgba(235,163,59,0.75);
+-webkit-box-shadow: 18px 200px 230px 143px rgba(235,163,59,0.75);
+-moz-box-shadow: 18px 200px 230px 143px rgba(235,163,59,0.75);
+background: #F0EBEB; 
+height: 30px;
+
+}
+
+
+
+ @media (max-width: 768px) { 
+
+
+
+.imagenes { 
+
+display: flex;
+flex-direction: column;
+align-items: center;
+flex-wrap: wrap;
+gap: 10px;  
+transition: transform 0.3s ease;  
+transition-delay: 0s;
+
+
+ } 
+
+.imagenes img { 
+width: 150px;
+height: 150px; 
+border-radius: 50px 15%; 
+
+ }
+
+
+
+
+
+
+</style>

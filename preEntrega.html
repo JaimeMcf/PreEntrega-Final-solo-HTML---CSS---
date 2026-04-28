@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+
+
+	 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+
+<link rel="stylesheet" type="text/css" href="PreEntrega.css"/>	
+ 
+
+ <meta charset="UTF-8">
+ 
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+   <meta name="description" content="Aprende a desarrollar páginas web desde cero">
+ 
+   <meta name="author" content="Daniel Salinas">
+ 
+  <title>Nosotros</title>
+  
+ <link rel="stylesheet" type="text/css" href="PreEntrega.css"/>	
+
+   <script src="https://kit.fontawesome.com/73f851add2.js" crossorigin="anonymous"></script>
+ 
+
+
+
+	</head>
+
+<body class="body">
+
+
+
+ 
+<header class="header">
+
+	<div class="logo">
+ 
+            <i class="fas fa-book-open"></i>
+        </div>
+	
+      
+	 
+	<ul class="ul">
+		
+ 
+<li class="li"><a  href="preE/preEntrega1.html"  id ="a">Galeria de  libros</a></li>
+<li class="li"><a  href="preE/preEntrega4.html"  id ="a">Contacto</a></li>
+
+	</ul>
+
+</header>
+
+
+<nav class="nav">
+	<section class="titulo_1">
+	<h1>Relatos de terror y Misterio</h1>
+	<p>¿Te imaginas dentro de una aventura de horror?</p>
+</section>
+
+
+</nav>
+
+<main class="main">
+<p class="titulo_2">No es algo extraño que nos guste sumergirnos en el mundo de lo oculto</p>
+
+</main>
+
+<div id="video">
+<video autoplay loop muted class="video">
+    <source src="preE/video.mp4" type="video/mp4">
+</video>
+</div>
+
+<div class="imm"></div>
+
+
+<footer class="footer">
+<p class="p">Diego Leandro Couselo</p>
+   <div class="social">
+      <a class="f" href="#" target="_blank" rel="noopener noreferrer"><i class="fs-4 fab fa-youtube"></i></a>
+      <a class="f" href="#" target="_blank" rel="noopener noreferrer"><i class="fs-4 fab fa-instagram"></i></a>
+      <a  class="f" href="#" target="_blank" rel="noopener noreferrer"><i class="fs-4 fab fa-twitter"></i></a>
+      <a class="f" href="#" target="_blank" rel="noopener noreferrer"><i class="fs-4 fab fa-linkedin"></i></a>
+     
+    </div></footer>
+
+
+
+
+
+
+
+ </body>
+
+
+
+	 <style>
+	 	
+	 	* { 
+padding: 0;
+margin: 0;
+font-family: monocrome;
+	 	 }
+
+body { 
+background-color: #000;
+
+
+ }
+
+.header { 
+background: #F0EBEB; 
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+flex-wrap: wrap;
+padding: 20px;
+margin: auto;
+color: #003;
+box-shadow: 18px 200px 230px 143px rgba(235,163,59,0.75);
+-webkit-box-shadow: 18px 200px 230px 143px rgba(235,163,59,0.75);
+-moz-box-shadow: 18px 200px 230px 143px rgba(235,163,59,0.75);
+gap: 10px; 
+
+ } 
+
+.ul { 
+display: flex; 
+color: #F0EBEB;
+align-items: center;
+flex-wrap: wrap;
+ }
+
+.li a  { 
+text-decoration: none;
+color: #615757; 
+margin: 15px;
+border-radius: 2px solid #fff;
+ }
+
+.li a:hover { 
+background-color:  #ffa7;
+
+
+
+
+ }
+
+
+
+
+#video { 
+position: relative;	
+padding: 100px;
+margin: 100px;
+left: -50px;
+min-width: 100%;
+min-height: 100%;
+z-index: 10000;
+object-fit: cover;
+
+
+ }
+
+
+.titulo_2 { 
+
+font-size: 3rem;
+animation: mover 3s ease-in-out infinite; 
+ }
+
+
+@keyframes  mover { 
+  from {
+    transform: translateX(-50px);
+    opacity: 0.5;
+  }
+  to {
+    transform: translateX(50px);
+    opacity: 1;
+  }
+
+
+    }
+ 
+
+
+ 
+
+.nav, .main { 
+
+color: #fff;
+box-shadow: 18px 200px 230px 143px rgba(235,163,59,0.75);
+-webkit-box-shadow: 18px 200px 230px 143px rgba(235,163,59,0.75);
+-moz-box-shadow: 18px 200px 230px 143px rgba(235,163,59,0.75);
+flex-wrap: wrap;
+text-align: center;
+
+ }
+
+ 
+
+
+.footer {  
+
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #000; 
+margin: 0;
+position: relative;
+top: 500px;  
+width: 100%; 
+color: #000;
+border: 2px solid #fff;
+box-shadow: 18px 200px 230px 143px rgba(235,163,59,0.75);
+-webkit-box-shadow: 18px 200px 230px 143px rgba(235,163,59,0.75);
+-moz-box-shadow: 18px 200px 230px 143px rgba(235,163,59,0.75);
+background: #F0EBEB; 
+height: 30px;
+
+}
+ 
+ 
+
+ 
+
+
+
+  @media (max-width: 768px) {
+
+#video, nav, p, main { 
+display: none; 
+
+ }
+ 
+ 
+body { 
+background-image: url(preE/dd.jpg);
+background-size: 200px;
+
+
+
+ }
+
+
+ 
+
+
+ li a { 
+display: block;
+
+  } 
+
+.header { 
+max-width: 100px;
+display: flex;
+flex-wrap: wrap;
+   position: relative;
+    top: -300px;  
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+     transform: translateY(-150%); 
+    transition: transform 0.4s ease-in-out;  
+     opacity: 0;
+    visibility: hidden;
+}  
+ 
+ 
+  .logo {
+   position: relative;
+   right: -20px;
+   top: 15px; 
+    
+  }
+
+.body:hover .header  {
+    transform: translateY(0); 
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    background: #F0EBEB; 
+   border-radius: 15px; 
+
+  }
+
+.footer p {  
+display: inline-block;
+
+}
+ 
+
+
+} 
+
+
+
+
+  
+
+
+	 </style>
+ 
+ <script type="text/javascript">
+ 	
+
+
+
+ </script>
