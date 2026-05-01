@@ -180,7 +180,7 @@ flex-wrap: wrap;
     
   }
 
-.body:hover .header  {
+*:hover .header  {
     transform: translateY(0); 
     opacity: 1;
     visibility: visible;
