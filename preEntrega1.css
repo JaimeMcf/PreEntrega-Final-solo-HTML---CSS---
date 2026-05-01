@@ -1,4 +1,4 @@
-body { 
+ body { 
 
 background-color: #000;
 
@@ -7,7 +7,26 @@ background-color: #000;
 
  }
 
-.h1 { 
+
+
+.a { 
+color: #fff; 
+text-align: center;
+text-decoration: none;
+font-family: monospace;
+font-size: 15px;
+
+
+ }
+
+.f { 
+display: inline-block;
+position: relative;
+left: 120px; 
+
+ }
+
+.h1, .h2 { 
 color: #fff;
 box-shadow: 0px 0px 15px 5px rgba(139, 0, 0, 0.7); 
 text-align: center;
@@ -16,6 +35,15 @@ font-family: 'Creepster', cursive;
 
  }
 
+.p1 { 
+color: #fff;
+position: fixed;
+text-align: center;
+font-family: 'Creepster', cursive;
+text-shadow: #4645aa 2px 5px;
+
+ }
+ 
 
 .imagenes { 
 
@@ -95,5 +123,8 @@ height: 150px;
 border-radius: 50px 15%; 
 
  }
+
+
+
 
 
