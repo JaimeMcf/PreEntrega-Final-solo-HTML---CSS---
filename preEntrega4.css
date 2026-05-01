@@ -1,9 +1,36 @@
 
-
 body { 
   font-family: Arial, sans-serif;
-  
-  background-color: #f0f2f5;2;
+  box-sizing: border-box;
+  background-color: #000;
+
+ }
+
+.a { 
+color: #fff; 
+text-align: center;
+text-decoration: none;
+font-family: monospace;
+font-size: 15px;
+
+
+ }
+
+#h1, #p { 
+color:  rgb(240, 255, 240); 
+text-align:  center;
+border: 2px solid rgb(186, 85, 211); 
+
+
+
+ }
+
+
+
+.f { 
+display: inline-block;
+position: relative;
+left: 120px; 
 
  }
 
@@ -56,9 +83,6 @@ top: 500px;
 width: 100%; 
 color: #000;
 border: 2px solid #fff;
-box-shadow: 18px 200px 230px 143px rgba(235,163,59,0.75);
--webkit-box-shadow: 18px 200px 230px 143px rgba(235,163,59,0.75);
--moz-box-shadow: 18px 200px 230px 143px rgba(235,163,59,0.75);
 background: #F0EBEB; 
 height: 30px;
 
